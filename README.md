@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="Tea-Cozy/resources/css/style.css" type="text/css" rel="stylesheet" />
+    <link href="resources/css/style.css" type="text/css" rel="stylesheet" />
     <title>Tea Cozy</title>
   </head>
   <body>
