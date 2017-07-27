@@ -1,0 +1,123 @@
+body{
+  font-size: 22px;
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+header{
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 20;
+  background-color: black;
+}
+header .logo{
+  padding-left: 10px;
+  height: 50px;
+  text-align: left;
+}
+header nav{
+  text-align: right;
+  color: seashell;
+}
+header nav a{
+  color: inherit;
+  padding-right: 20px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first{
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+}
+.first #mission{
+  vertical-align: middle;
+  background-color: black;
+  width: 1200px;
+}
+.first #mission h2, .first #mission h4{
+  margin: 0px;
+  padding: 10px;
+}
+#tea{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 70px;
+  height: 700px;
+}
+#tea h2, .tea h4{
+  margin: 0px;
+  padding: 10px;
+}
+.item{
+  padding: 5px;
+}
+.item img{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
+
+}
+.items{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item span{
+  display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+#locations{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+
+}
+.block{
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  margin-top: 15px;
+  margin-left: 40px;
+  text-align: center;
+}
+.blocks{
+display: flex;
+justify-content: center;
+}
+.contact{
+  text-align: center;
+  height: 200px;
+}
+.copyright{
+  width: 100%;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.copyright h5{
+
+}
